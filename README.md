@@ -7,6 +7,8 @@ stations and illustrate them in a Pie Chart.
 This tool has been created as part of the fair airtime scheduling research
 at Open-Mesh Inc.
 
+![example pie chart](/doc/fq_codel_fair.png "Airtime spent sending to a client")
+
 Compilation
 -----------
 
