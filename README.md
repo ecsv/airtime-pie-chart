@@ -1,6 +1,12 @@
 airtime-pie-chart
 =================
 
+Airtime Pie Chart is a tool to evaluate used airtime of IEEE 802.11 / WiFi
+stations and illustrate them in a Pie Chart.
+
+This tool has been created as part of the fair airtime scheduling research
+at Open-Mesh Inc.
+
 Compilation
 -----------
 
@@ -62,6 +68,12 @@ to generate a simple PIE chart:
 
     R --no-save < airtime-pie-chart.R
     xdg-open airtime-pie-chart.png
+
+Author
+------
+
+This software has been written by Sven Eckelmann <sven.eckelmann@open-mesh.com>
+for Open-Mesh Inc.
 
 License
 -------
