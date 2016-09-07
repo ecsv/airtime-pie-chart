@@ -1,0 +1,6 @@
+/aircap.pcap
+/airtime-pie-chart.dat
+/airtime-pie-chart.png
+/airtime_analyzer
+*.o
+*.d
