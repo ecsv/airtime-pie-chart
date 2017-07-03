@@ -845,7 +845,7 @@ void output_detailed(void)
 			duration += it_speed->second.duration;
 #ifdef DETAILED_OUTPUT_EXTRA
 			if (it_speed->first.is_rate) {
-				printf("\trate: %uM: %zu (%zums)\n", it_speed->first.rate / 2, it_speed->second.count, it_speed->second.duration);
+				printf("\trate: %uM: %zu (%zuus)\n", it_speed->first.rate / 2, it_speed->second.count, it_speed->second.duration);
 			} else {
 				const char *bw;
 				const char *gi;
@@ -874,11 +874,11 @@ void output_detailed(void)
 					break;
 				}
 				
-				printf("\tmcs: %u, width: %s, GI: %s: %zu (%zums)\n", it_speed->first.mcs, bw, gi, it_speed->second.count, it_speed->second.duration);
+				printf("\tmcs: %u, width: %s, GI: %s: %zu (%zuus)\n", it_speed->first.mcs, bw, gi, it_speed->second.count, it_speed->second.duration);
 			}
 #endif
 		}
-		printf("\tduration: %zums\n", duration);
+		printf("\tduration: %zuus\n", duration);
 	}
 }
 
@@ -887,7 +887,7 @@ void output_tabbed(void)
 	map<mac_key, mac_value>::iterator it;
 	map<speed_key, speed_value>::iterator it_speed;
 
-	printf("node              msec\n");
+	printf("node              usec\n");
 	for (it = macmap.begin(); it != macmap.end(); ++it) {
 		size_t duration = 0;
 		for (it_speed = it->second.speedmap.begin(); it_speed != it->second.speedmap.end(); ++it_speed)
