@@ -739,6 +739,10 @@ static void pcap_copy_handler(u_char *user, const struct pcap_pkthdr *h, const u
 			size = 1;
 			alignment = 1;
 			break;
+		case 17: /* Data retries */
+			size = 1;
+			alignment = 1;
+			break;
 		case 19: /* MCS */
 			size = 3;
 			alignment = 1;
