@@ -731,6 +731,10 @@ static void pcap_copy_handler(u_char *user, const struct pcap_pkthdr *h, const u
 			size = 2;
 			alignment = 2;
 			break;
+		case 15: /* TX flags */
+			size = 2;
+			alignment = 2;
+			break;
 		case 19: /* MCS */
 			size = 3;
 			alignment = 1;
