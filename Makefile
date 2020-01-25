@@ -8,7 +8,7 @@ BINARY_NAME = airtime_analyzer
 OBJ += airtime_analyzer.o
 
 # airtime_analyzer flags and options
-CXXFLAGS += -pedantic -Wall -W -std=gnu99 -fno-strict-aliasing -MD -MP
+CXXFLAGS += -pedantic -Wall -W -std=gnu++11 -fno-strict-aliasing -MD -MP
 LDLIBS += 
 
 # disable verbose output
