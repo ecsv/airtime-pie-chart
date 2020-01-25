@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: 2013-2016, Sven Eckelmann <ssven.eckelmann@open-mesh.com>
+
 png("fq_codel_fair.png", width = 520, height = 480);
 data <- read.table("fq_codel_fair.txt", header=TRUE);
 

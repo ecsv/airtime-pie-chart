@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: 2013-2016, Sven Eckelmann <ssven.eckelmann@open-mesh.com>
+
 png("airtime-pie-chart.png");
 data <- read.table("airtime-pie-chart.dat", header=TRUE);
 

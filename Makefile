@@ -1,33 +1,15 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
-#
-# Copyright (C) 2013-2016 Sven Eckelmann <sven.eckelmann@open-mesh.com>
-#
-# This program is free software; you can redistribute it and/or
-# modify it under the terms of version 2 of the GNU General Public
-# License as published by the Free Software Foundation.
-#
-# This program is distributed in the hope that it will be useful, but
-# WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-# General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program; if not, write to the Free Software
-# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
-# 02110-1301, USA
-#
+# SPDX-License-Identifier: GPL-2.0-only
+# SPDX-FileCopyrightText: 2013-2016 Sven Eckelmann <sven.eckelmann@open-mesh.com>
 
-# alfred build
+# airtime_analyzer build
 BINARY_NAME = airtime_analyzer
 OBJ += airtime_analyzer.o
 
-# alfred flags and options
+# airtime_analyzer flags and options
 CXXFLAGS += -pedantic -Wall -W -std=gnu99 -fno-strict-aliasing -MD -MP
-LDLIBS += -lrt
-
-# Turn on alfred capability dropping by default - set this to n if you don't want/need it
-export CONFIG_ALFRED_CAPABILITIES=y
+LDLIBS += 
 
 # disable verbose output
 ifneq ($(findstring $(MAKEFLAGS),s),s)

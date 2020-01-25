@@ -1,13 +1,9 @@
-/*
- * Copyright 2002-2005, Instant802 Networks, Inc.
- * Copyright 2005-2006, Devicescape Software, Inc.
- * Copyright 2006-2007	Jiri Benc <jbenc@suse.cz>
- * Copyright 2007	Johannes Berg <johannes@sipsolutions.net>
- * Copyright (C) 2013-2016 Sven Eckelmann <sven.eckelmann@open-mesh.com>
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License version 2 as
- * published by the Free Software Foundation.
+// SPDX-License-Identifier: GPL-2.0-only
+/* SPDX-FileCopyrightText: 2002-2005, Instant802 Networks, Inc.
+ * SPDX-FileCopyrightText: 2005-2006, Devicescape Software, Inc.
+ * SPDX-FileCopyrightText: 2006-2007	Jiri Benc <jbenc@suse.cz>
+ * SPDX-FileCopyrightText: 2007	Johannes Berg <johannes@sipsolutions.net>
+ * SPDX-FileCopyrightText: 2013-2016 Sven Eckelmann <sven.eckelmann@open-mesh.com>
  */
 
 #define _BSD_SOURCE
