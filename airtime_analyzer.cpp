@@ -6,7 +6,7 @@
  * SPDX-FileCopyrightText: 2013-2016 Sven Eckelmann <sven.eckelmann@open-mesh.com>
  */
 
-#define _BSD_SOURCE
+#define _DEFAULT_SOURCE
 #include <endian.h>
 #include <pcap/pcap.h>
 #include <stdint.h>
