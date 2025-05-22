@@ -8,5 +8,5 @@ data <- read.table("airtime-pie-chart.dat", header=TRUE);
 #lbls <- c("02:ba:da:ff:01:00", "02:ba:da:ff:02:00", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "02:ba:da:ff:30:00")
 #pie(data$usec, labels = lbls, main="Airtime spent sending to a device")
 
-pie(data$usec, main="Airtime spent sending to a device")
+pie(data$usec, labels = data$node, main="Airtime spent sending to a device")
 dev.off();
